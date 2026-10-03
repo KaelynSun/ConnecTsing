@@ -33,9 +33,19 @@ export default function AppTabs() {
         <NativeTabs.Trigger.Icon sf="person.3.fill" md="groups" />
       </NativeTabs.Trigger>
 
+      <NativeTabs.Trigger name="mentors" disableAutomaticContentInsets>
+        <NativeTabs.Trigger.Label>Mentors</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="graduationcap.fill" md="school" />
+      </NativeTabs.Trigger>
+
       <NativeTabs.Trigger name="host" disableAutomaticContentInsets>
         <NativeTabs.Trigger.Label>Host</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf="plus.circle.fill" md="add_circle" />
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="chats" disableAutomaticContentInsets>
+        <NativeTabs.Trigger.Label>Messages</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="bubble.left.and.bubble.right.fill" md="forum" />
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="mine" disableAutomaticContentInsets>
