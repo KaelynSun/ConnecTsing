@@ -28,12 +28,12 @@
 @layer theme {
   :root {
     @variant light {
-      --accent: oklch(0.66 0.26 325);
-      --accent-foreground: oklch(0.99 0 0);
+      --accent: oklch(0.56 0.11 163);
+      --accent-foreground: oklch(0.98 0 0);
     }
     @variant dark {
-      --accent: oklch(0.72 0.22 325);
-      --accent-foreground: oklch(0.16 0 0);
+      --accent: oklch(0.75 0.12 163);
+      --accent-foreground: oklch(0.16 0.02 163);
     }
   }
 }
